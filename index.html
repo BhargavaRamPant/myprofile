@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I am Bhargava Ram | Web designer</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/madiaquery.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      function toggleMenu() {
+      const menu = document.querySelector(".menu-links");
+      const icon = document.querySelector(".hamburger-icon");
+      menu.classList.toggle("open");
+      icon.classList.toggle("open");
+    }
+    </script>
+    <style>
+      .icon {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-f7ce46">
+      <nav id="desktop-nav">
+        <div class="logo">
+          <a href="#">
+            <img src="images/Logo.png" alt="Logo" height="40"/>
+          </a>
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">
+          <a href="#">
+            <img src="images/Logo.png" alt="Logo" height="40"/>
+          </a>
+        </div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="bg-f7ce46">
+      <div class="banner">
+        <div class="banner-right">
+          <div class="hello-bg">
+            Hello I am
+          </div>
+          <p class="banner-content">Bhargava Ram<br>a web designer</p>
+          <button type="button" class="btn btn-warning">Download CV</button>
+        </div>
+        <div class="banner-left">
+          <img src="images/profile-pic.png" width="250"/>
+        </div>
+      </div>
+      <img src="images/svgviewer-png-output.png"  width="100%"/>         
+    </section>
+
+    <section class="padding-b-1rem" id="about"> 
+      <div class="container">
+        <div class="row">
+          <div class="Skils">
+            <h1>Skils</h1>
+            <p>I'm a creative multitasking developer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <!-- Icons for Desktop View -->
+          <div class="col-lg-12 d-none d-lg-block">
+            <div class="row justify-content-center">
+              <div class="col-lg-auto">
+                <img src="images/HTML.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-lg-auto">
+                <img src="images/CSS.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-lg-auto">
+                <img src="images/Bootstrap.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-lg-auto">
+                <img src="images/Flexbox.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-lg-auto">
+                <img src="images/JS.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-lg-auto">
+                <img src="images/Angulor.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-lg-auto">
+                <img src="images/React.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-lg-auto">
+                <img src="images/Nodejs.png" width="100" class="img-fluid"/>
+              </div>
+            </div>
+          </div>
+          <!-- Icons for Mobile View -->
+          <div class="col-12 d-lg-none">
+            <div class="row">
+              <div class="col-6">
+                <img src="images/HTML.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-6">
+                <img src="images/CSS.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-6">
+                <img src="images/Bootstrap.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-6">
+                <img src="images/Flexbox.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-6">
+                <img src="images/JS.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-6">
+                <img src="images/Angulor.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-6">
+                <img src="images/React.png" width="100" class="img-fluid"/>
+              </div>
+              <div class="col-6">
+                <img src="images/Nodejs.png" width="100" class="img-fluid"/>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding-t-b-1rem">
+      <div class="container profile">
+        <div class="row about">
+          <div class="col-md-2"></div>
+          <div class="col-md-4 about-right">
+            <h1>About Me</h1>
+            <p>Hello! I'm Bhargava Ram, a passionate front-end developer with a keen eye for detail and a love for crafting beautiful and functional web experiences.</p>
+          </div>
+          <div class="col-md-4 about-left">
+            <img src="images/profile-pic.png" width="250"/>
+          </div>
+          <div class="col-md-2"></div>
+        </div> 
+      </div>
+    </section>
+    <img src="images/Svg_bottom.png"  width="100%"/>  
+
+
+    <section class="bg-f7ce46">
+      <div class="container">
+        <div class="row idea">
+          <div class="col-md-2"></div>
+          <div class="col-md-4 about-right">
+            <h4>Hello</h4>
+            <p>I am equally happy working on both Print media and degital media. My job is to make the content more attractive and good understandable in both print and Degital meadia.</p>
+          </div>
+          <div class="col-md-4 about-left">
+            <img src="images/Idea.png" width="300"/>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+      <img src="images/svgviewer-png-output.png"  width="100%"/>   
+    </section>   
+
+    <section class="padding-t-b-1rem" id="experience">  
+    <div class="container profile">
+      <div class="row padding-t-b-1rem">
+        <h1>Work Experience</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6 order-md-2">
+          <!-- Column 2 Content -->
+          <div class="p-3 text-white">
+            <img src="images/DMG.png" width="250"  class="img-fluid"/>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-1">
+          <!-- Column 1 Content -->
+          <div class=" p-3 text-white">
+            <p class="exp-title">Web and Graphic Designer</p>
+            <p class="exp-content">Hello! I'm Bhargava Ram, a passionate front-end developer with a keen eye for detail and a love for crafting beautiful and functional web experiences.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row Experience">
+        <div class="col-md-6 Experience-right">
+          <img src="images/Indegene.png"  class="img-fluid"/>  
+        </div>
+        <div class="col-md-6 Experience-left">
+          <p class="exp-title" style="padding: 0px;">Web Designer</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo perspiciatis dolore vero rerum sequi ut blanditiis, aliquam vitae necessitatibus magnam nulla inventore eum facere minus officiis. Soluta accusantium nostrum culpa?</p>
+        </div>
+      </div>  
+    </div>
+    </section>
+
+
+    <section class="padding-t-b-1rem" id="blog">
+      <div class="container profile">
+        <div class="row padding-b-2rem">
+          <h1>Blog</h1>
+        </div>
+        <div class="row">
+              <div class="col-md-3 blog-cards">
+                <div class="blog-card">
+                  <img src="https://www.shutterstock.com/image-photo/bloggingblog-concepts-ideas-white-worktable-600nw-1029506242.jpg" class="img-fluid b-r-10" alt="Blog-1">
+                  <div class="blog-title">
+                    <p>Hedding one blog</p>
+                  </div>
+                  <div class="blog-text">
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 blog-cards">
+                <div class="blog-card">
+                  <img src="https://img.freepik.com/free-photo/online-blog_53876-123696.jpg" class="img-fluid b-r-10" alt="Blog-1">
+                  <div class="blog-title">
+                    <p>Hedding one blog</p>
+                  </div>
+                  <div class="blog-text">
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 blog-cards">
+                <div class="blog-card">
+                  <img src="https://www.shutterstock.com/image-photo/bloggingblog-concepts-ideas-white-worktable-600nw-1029506242.jpg" class="img-fluid b-r-10" alt="Blog-1">
+                  <div class="blog-title">
+                    <p>Hedding one blog</p>
+                  </div>
+                  <div class="blog-text">
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 blog-cards">
+                <div class="blog-card">
+                  <img src="https://img.freepik.com/free-photo/online-blog_53876-123696.jpg" class="img-fluid b-r-10" alt="Blog-1">
+                  <div class="blog-title">
+                    <p>Hedding one blog</p>
+                  </div>
+                  <div class="blog-text">
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+
+    <img src="images/Svg_bottom.png"  width="100%"/>   
+    <section class="bg-f7ce46 padding-b-2rem" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>GET IN Touch</h2>
+            <p class="t-align-j">Feel free to connect with me at any time. It is the one stop solution for all your WWW needs. </p>
+          </div>
+          <div class="col-md-4">
+            <h5>CALL Me</h5>
+            <p>+91 00000 00000</p>
+  
+            <h5>Location</h5>
+            <p>Bangalore</p>
+          </div>
+          <div class="col-md-4">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputName" aria-describedby="Name" placeholder="Enter Your Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Your Message"></textarea>
+              </div>
+              <div class="btn-space">
+                <button type="submit" class="btn btn-warning btn-width">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bgcolor-282728">
+      <div class="container">
+        <div class="row copy-content">
+           <p>&copy; 2024 All rights are reserved @ <a href="https://www.bhargavaram.in/" target="_blank"> www.bhargavaram.in</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+  .d-non {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  .banner-content {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .d-none {
+    display: none;
+  }
+
+  .banner-content {
+    font-size: 20px;
+  }
+  .Experience {
+    padding: 0px;
+  }
+  .rtl {
+    direction: ltr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner-content {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-right {
+    padding: 20px 95px;
+  }
+  .Experience {
+    padding: 0px;
+  }
+  .rtl {
+    direction: ltr;
+  }
+}
